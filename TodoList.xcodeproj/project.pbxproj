@@ -14,6 +14,7 @@
 		EED4741821296ABA0074B58E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED4741621296ABA0074B58E /* LaunchScreen.storyboard */; };
 		EED4742321296ABA0074B58E /* TodoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED4742221296ABA0074B58E /* TodoListTests.swift */; };
 		EED4742E21296ABA0074B58E /* TodoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED4742D21296ABA0074B58E /* TodoListUITests.swift */; };
+		EED4743C212A17EF0074B58E /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED4743B212A17EF0074B58E /* ToDoTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EED4742921296ABA0074B58E /* TodoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EED4742D21296ABA0074B58E /* TodoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListUITests.swift; sourceTree = "<group>"; };
 		EED4742F21296ABA0074B58E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EED4743B212A17EF0074B58E /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		EED4740121296AB80074B58E = {
 			isa = PBXGroup;
 			children = (
+				EED4743D212A1E520074B58E /* New Group */,
 				EED4740C21296AB80074B58E /* TodoList */,
 				EED4742121296ABA0074B58E /* TodoListTests */,
 				EED4742C21296ABA0074B58E /* TodoListUITests */,
@@ -103,6 +106,7 @@
 				EED4741421296ABA0074B58E /* Assets.xcassets */,
 				EED4741621296ABA0074B58E /* LaunchScreen.storyboard */,
 				EED4741921296ABA0074B58E /* Info.plist */,
+				EED4743B212A17EF0074B58E /* ToDoTableViewController.swift */,
 			);
 			path = TodoList;
 			sourceTree = "<group>";
@@ -123,6 +127,13 @@
 				EED4742F21296ABA0074B58E /* Info.plist */,
 			);
 			path = TodoListUITests;
+			sourceTree = "<group>";
+		};
+		EED4743D212A1E520074B58E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EED4741021296AB80074B58E /* ViewController.swift in Sources */,
+				EED4743C212A17EF0074B58E /* ToDoTableViewController.swift in Sources */,
 				EED4740E21296AB80074B58E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
